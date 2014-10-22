@@ -12,10 +12,10 @@ import javax.servlet.http.HttpServletResponse;
 import model.FormatManager;
 
 @WebServlet("/synthetiseurFluxXml")
-public class SynthetiseurFluxXmlServlet extends HttpServlet {
+public class synthetiseurFluxXmlServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	public SynthetiseurFluxXmlServlet() {
+	public synthetiseurFluxXmlServlet() {
 		super();
 	}
 
