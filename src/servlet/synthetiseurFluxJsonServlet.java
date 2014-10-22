@@ -12,10 +12,10 @@ import javax.servlet.http.HttpServletResponse;
 import model.FormatManager;
 
 @WebServlet("/synthetiseurFluxJson")
-public class synthetiseurFluxJsonServlet extends HttpServlet {
+public class SynthetiseurFluxJsonServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	public synthetiseurFluxJsonServlet() {
+	public SynthetiseurFluxJsonServlet() {
 		super();
 	}
 
