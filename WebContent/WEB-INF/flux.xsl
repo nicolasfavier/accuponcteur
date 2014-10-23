@@ -24,14 +24,14 @@
 
 	<xsl:template match="model.Article">
 		<li>
-			titre du flux :
-			<xsl:value-of select="titre" />
-			description :
-			<xsl:value-of select="description" />
-			date :
-			<xsl:value-of select="date" />
-			createur :
-			<xsl:value-of select="createur" />
-		</li>
+			<strong>titre du flux :</strong>
+			<xsl:value-of select="titre" /><br/>
+			<strong>description :</strong>
+			<xsl:value-of select="description" /><br/>
+			<strong>date :</strong>
+			<xsl:value-of select="date" /><br/>
+			<strong>createur :</strong>
+			<xsl:value-of select="createur" /><br/>
+		</li><br/><br/>
 	</xsl:template>
 </xsl:stylesheet>
